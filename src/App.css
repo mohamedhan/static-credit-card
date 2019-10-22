@@ -1,0 +1,109 @@
+*{margin:5px}
+
+.App {
+  background-color: #c49c48;
+display:flex;
+justify-content: center;
+}
+.card{
+  width: 600px;
+  height: 350px;
+  display: flex;
+ justify-content: space-between;
+  border-radius: 25px;
+  flex-direction: column;
+  background-image: url('./background.jpg');
+  padding: 20px;
+
+}
+  .title {
+    display: flex;
+    align-self: flex-end;
+    color: white;
+  }
+  .chip{
+    display: flex;
+    align-self: flex-start;
+    height: 60px;
+  width: 60px;
+  border-radius: 20px;
+  }
+/* .chip-image{
+  height: 80px;
+  width: 140px;
+  border-radius: 20px;
+
+} */
+/* .criteria{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+.card-number {
+  color: #c49c48;
+  background-color: green;
+  opacity: 0.5;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.card-holder{
+  color: white;
+  margin:0
+  
+}
+.display-card{
+  display: flex;
+  justify-content: space-between;
+ align-items: flex-end
+}
+.visa-image{
+   width:70px;
+}
+.valid-card{
+  display: flex;
+  justify-content: space-between;
+}
+.sect-valid{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.valid-thruu{
+  font-size: 10px;
+  color: white;
+}
+.valid{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px;
+}
+.sect-valid * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ttt{
+  display: flex;
+  flex-direction: column;
+ 
+  width: 80%;
+}
+.valid-thru{
+  align-self: flex-end;
+  color: white;
+  font-size: 10px;
+}
+.date-exp{
+  color: white;
+  font-size: 20px;
+
+}
+.number{
+  color: white;
+  font-size: 30px;
+
+}
+ 
